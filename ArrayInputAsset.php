@@ -15,6 +15,9 @@ class ArrayInputAsset extends \yii\web\AssetBundle{
     public $js = [
         'js/array-input.js'
     ];
+    public $css = [
+        'css/array-input.css'
+    ];
 
     public $depends = [
         'yii\web\JqueryAsset',
